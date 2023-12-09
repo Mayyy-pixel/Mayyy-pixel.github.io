@@ -1,0 +1,865 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/******SECTION MOBILE*******/
+
+
+/*********HEADER********/
+
+.bg-body-tertiary{
+    background-color:  rgb(182, 130, 117) !important;
+}
+
+.d-flex{
+    background-color:rgb(182, 130, 117);
+    width: 100%;
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right: 5px;
+}
+.form-control{
+    padding: 2px;
+    width: 100%;
+}
+.navbar-brand{
+    font-family: 'Solitreo', cursive !important;
+    font-size: 25px;
+    height: 5vh;
+    color:rgb(230, 216, 199);
+    
+}
+
+.btn-outline-success{
+    color:rgb(139, 30, 30);
+    border-color: rgb(139, 30, 30);
+    background-color: white;
+}
+
+/*********CAROUSEL**********
+****************************/
+
+#p-2{
+    display: block;
+    color:rgb(255, 255, 255);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-shadow: black 3px 3px 1px;
+}
+
+.texto-img {
+    position: absolute;
+    width: 100%;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+    
+}
+
+.texto-img h1{      /****Titulo en carousel*/
+    margin-top:30px;
+}
+.texto-img p {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 3%;
+}
+
+.btn{
+    height: 6vh;
+
+}
+
+.font-text{
+    font-family: 'Charm', cursive;
+    font-weight: 900;
+    text-shadow: 4px 4px 3px black;
+}
+
+/*********CARTAS**********
+*************************/
+
+.card {
+    display: inline-block;
+    flex-wrap:wrap;
+    margin: 10px 15px 10px 10px;
+}
+
+.section__card {
+    background-image: url(../img/papelcarton.jpg);
+    height: 85vh;
+    top: 30px;
+    background-attachment: fixed;
+}
+
+.card-body {
+    height: 20vh;
+}
+
+.card-text{
+    height: 5vh;
+    font-size: 15px !important;
+    font-family: sans-serif;
+}
+
+.card-title{
+    font-size: 19px !important;
+    font-family: 'Solitreo', cursive !important;
+    font-weight: 700;
+    color: rgb(155, 67, 67);
+    margin-bottom: 1px;
+}
+
+.btn-success{         /****Boton de cartas***/
+    height: 5vh;
+    font-size: 13px;
+}
+
+.section__title{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-family: 'Solitreo', cursive;
+    font-weight: 600;
+    color: rgb(95, 75, 49);
+    position: relative;
+    top: 10px;
+}
+
+/*********PASTRY**********
+*************************/
+
+.section__pastry {
+    background-image: url(../img/rosa.jpg);     /***** Fondo con imagen****/
+    height: 85vh;
+    background-attachment: fixed;
+}
+
+.section__pastry .btn-success {
+    width: 80%;
+    margin-left: 13px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.section__pastry .card-text2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*********ABOUT**********
+*************************/
+
+.section__about{
+    height: 60vh;
+    background-image: url(../img/rosa.jpg);
+    background-attachment: fixed;
+}
+
+#about_title {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-family: 'Solitreo', cursive;
+    font-weight: 600;
+    animation: cambio-color 5s infinite alternate;
+    text-shadow: 0 0 6px rgb(24, 22, 22);
+    position: relative;
+    top: 10px;
+}
+
+@keyframes cambio-color {    /***Animacion del titulo****/
+    0% { color:rgb(174, 214, 100); }
+    25% { color: #e0b0e0; }
+    50% { color: burlywood; }
+    75% { color:lightgray; }
+    100% { color:lightpink}
+}
+
+.section__about p {
+    padding: 5px 10px 3px 15px;
+    font-weight: 700;
+    background-color: bisque;
+    border-radius: 10%;
+    font-family: sans-serif;
+    background-color: rgb(235, 212, 178);
+    border: 2px dashed #ffffff; 
+}
+
+/*********FIND US**********
+*************************/
+
+.section__findus{
+    height: 55vh;
+    background-color: rgb(235, 212, 178);
+}
+
+
+.section__findus .card-body{
+    height: 6vh;
+    padding: 1px 1px 1px 1px;
+}
+
+.section__findus i{       /******ICONOS******/
+    height: 12vh;
+    width: 100%;
+}
+
+.section__findus .card-title{
+    font-size: 15px !important;
+    font-family: sans-serif !important;
+    font-weight: 700;
+    color: rgb(97, 58, 58);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5px;
+}
+
+.fa-instagram::before {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 75px;
+    color: rgb(80, 46, 57);
+}
+
+
+.fa-facebook::before {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 75px;
+    color:  rgb(80, 46, 57);
+}
+
+.fa-whatsapp::before {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 75px;
+    color:  rgb(80, 46, 57);
+}
+
+.fa-at::before{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 75px;
+    color:  rgb(80, 46, 57);
+    font-weight: 100;
+}
+
+/*********FOOTER**********
+*************************/
+
+.section__footer{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(17, 17, 17);
+    color:white;
+}
+
+
+@media ( min-width: 740px ) {
+
+    /*********HEADER********/
+
+.bg-body-tertiary{
+    background-color:  rgb(182, 130, 117) !important;
+}
+
+    .d-flex{
+        background-color:rgb(182, 130, 117);
+        width: 100%;
+        padding-top: 10px;
+        padding-left:10px ;
+        padding-right: 5px;
+    }
+    .form-control{
+        padding: 2px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-family: 'Solitreo', cursive !important;
+        font-size: 25px;
+        height: 5vh;
+        color:rgb(230, 216, 199);
+        
+    }
+    
+    .btn-outline-success{
+        color:rgb(139, 30, 30);
+        border-color: rgb(139, 30, 30);
+        background-color: white;
+    }
+    
+    /*********CAROUSEL**********
+    ****************************/
+    
+    #p-2{
+        text-shadow: rgb(124, 117, 117) 3px 3px 3px;
+    }
+    
+    
+    .texto-img h1{      /****Titulo en carousel*/
+        font-size: 50px;
+        
+    }
+    .texto-img p {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 2%;
+        font-size: 20px;
+    }
+    
+    .font-text{
+        text-shadow: 8px 8px 4px rgb(133, 123, 123);
+    }
+    
+    /*********CARTAS**********
+    *************************/
+    
+    .card {
+        display:inline-block;
+        margin: 20px 30px 10px 50px;
+        width: 18rem !important;
+    }
+    
+    .section__card {
+        background-image: url(../img/papelmarron2.jpg);
+        height: 127vh;
+        top: 30px;
+        background-attachment: fixed;
+    }
+    
+    .card-body {
+        height: 25vh;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .card-text{
+        height: 6vh;
+        font-size: 21px !important;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .card-title{
+        font-size: 28px !important;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-success{         /****Boton de cartas***/
+        height: 7vh;
+        font-size: 20px;
+    }
+    
+
+    /*********SECTION PASTRY**********    
+    **********************************/
+    
+    /*********CARTAS**********/
+    
+    .section__pastry {
+        background-image: url(../img/rosa2.jpg);     /***** Fondo con imagen****/
+        height: 120vh;
+        background-attachment: fixed;
+    }
+
+    .section__pastry .card-text2 {
+        margin-left: 8px;
+        margin-right: 4px;
+    }
+    .section__pastry .card-body2{
+        height: 19vh;
+    }
+
+    .section__pastry .btn-success {
+        width: 90%;
+        margin-left: 13px;
+        margin-right: 10px;
+    }
+    
+    /*********ABOUT**********
+    *************************/
+    
+    .section__about{
+        height: 60vh;
+        background-image: url(../img/rosa2.jpg);
+        background-attachment: fixed;
+    }
+    
+    #about_title {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        font-family: 'Solitreo', cursive;
+        font-weight: 600;
+        animation: cambio-color 5s infinite alternate;
+        text-shadow: 3px 3px 3px 6px rgb(19, 18, 18);
+        position: relative;
+        top: 10px;
+    }
+    
+    @keyframes cambio-color {    /***Animacion del titulo****/
+        0% { color:rgb(210, 100, 214); }
+        25% { color: #e0b0e0; }
+        50% { color: burlywood; }
+        75% { color:lightgray; }
+        100% { color:lightpink}
+    }
+    
+    .section__about p {
+        padding: 10px 10px 3px 15px;
+        font-weight: 700;
+        background-color: bisque;
+        border-radius: 7%;
+        font-family: sans-serif;
+        background-color: rgb(248, 217, 217); 
+        font-size: 20px;
+    }
+    
+    /*********FIND US**********
+    *************************/
+    .section__findus > .card{
+        width: 15rem !important;
+        margin: 20px 10px 10px 80px;
+    }
+
+    .section__findus{
+        height: 70vh;
+        background-color: rgb(235, 212, 178);
+    }
+    
+    
+    .section__findus .card-body{
+        height: 9vh;
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .section__findus i{       /******ICONOS******/
+        height: 15vh;
+        width: 100%;
+    }
+    
+    .section__findus .card-title{
+        font-size: 20px !important;
+        font-family: sans-serif !important;
+        font-weight: 700;
+        color: rgb(97, 58, 58);
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    a{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 5px;
+    }
+    
+    .fa-instagram::before {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 95px;
+        color: rgb(80, 46, 57);
+    }
+    
+    
+    .fa-facebook::before {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 95px;
+        color:  rgb(80, 46, 57);
+    }
+    
+    .fa-whatsapp::before {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 95px;
+        color:  rgb(80, 46, 57);
+    }
+    
+    .fa-at::before{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 95px;
+        color:  rgb(80, 46, 57);
+        font-weight: 100;
+    }
+    
+    /*********FOOTER**********
+    *************************/
+    
+    .section__footer{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(17, 17, 17);
+        color:white;
+    } 
+}
+
+
+/********LAPTOP**********
+*************************/
+
+
+
+@media (min-width: 1070px ) {
+
+/*********HEADER********/
+
+.navbar-brand:hover{
+color: rgb(27, 27, 27);
+transform:scale(1.2);
+transition: all 0.90s;
+text-shadow: 4px 4px 4px rgb(97, 97, 97);
+}
+
+
+.nav-link:hover {
+color: beige;
+transform:scale(1.2);
+transition:all 0.30s;
+text-shadow: 3px 3px 3px rgb(87, 86, 86);
+}
+
+.nav-link.active:hover{
+color: beige;
+transform:scale(1.2);
+transition:all 0.30s;
+}
+
+.bg-body-tertiary{
+    background-color:  rgb(182, 130, 117) !important;
+}
+
+    .d-flex{
+        background-color:rgb(182, 130, 117);
+        width: 100%;
+        padding-top: 10px;
+        padding-left:10px ;
+        padding-right: 5px;
+    }
+    .form-control{
+        padding: 2px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-family: 'Solitreo', cursive !important;
+        font-size: 25px;
+        height: 5vh;
+        color:rgb(230, 216, 199);
+        
+    }
+    
+    .btn-outline-success{
+        color:rgb(139, 30, 30);
+        border-color: rgb(139, 30, 30);
+        background-color: white;
+    }
+    
+    /*********CAROUSEL**********
+    ****************************/
+
+    .w-100{
+        height: 95vh;
+    }
+    
+    #p-2{
+        text-shadow: rgb(124, 117, 117) 3px 3px 3px;
+    }
+    
+    
+    .texto-img h1{      /****Titulo en carousel*/
+        font-size: 90px;
+        
+    }
+    .texto-img p {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 2%;
+        font-size: 30px;
+    }
+    
+    .font-text{
+        text-shadow: 8px 8px 4px rgb(133, 123, 123);
+    }
+
+    .btn-outline-light{
+    height: 8vh;
+    width: 80px;
+    }
+    
+    /*********CARTAS**********
+    *************************/
+    
+    .card-img-top{
+        height: 20vh;
+    }
+    .card {
+        display:inline-block;
+        justify-content:space-around ;
+        margin: 30px 40px 10px 50px;
+        width: 15rem !important;
+    }
+
+    
+    .section__card {
+        background-image: url(../img/papelmarron2.jpg);
+        height: 70vh;
+        top: 30px;
+        background-attachment: fixed;
+    }
+    
+    .section__card .section__title{
+            width: 100%;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            padding-top: 19px;
+            font-family: 'Solitreo', cursive;
+            font-weight: 600;
+            font-size: 50px;
+            color: rgb(95, 75, 49);
+            position: relative;
+            top: 10px;
+    }
+    .card-body {
+        height: 25vh;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .card-text{
+        height: 6vh;
+        font-size: 19px !important;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .card-title{
+        font-size: 28px !important;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-success{         /****Boton de cartas***/
+        height: 7vh;
+        font-size: 20px;
+    }
+    
+
+    /*********SECTION PASTRY**********    
+    **********************************/
+    
+    /*********CARTAS**********/
+    
+    .section__pastry {
+        background-image: url(../img/papelmarron2.jpg);     /***** Fondo con imagen****/
+        height: 70vh;
+        background-attachment: fixed;
+    }
+
+    .section__pastry .section__title{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        font-family: 'Solitreo', cursive;
+        font-weight: 600;
+        font-size: 50px;
+        color: rgb(95, 75, 49);
+        position: relative;
+        top: 10px;
+    }
+
+
+    .section__pastry .card-text2 {
+        margin-left: 8px;
+        margin-right: 4px;
+    }
+    .section__pastry .card-body2{
+        height: 19vh;
+    }
+
+    .section__pastry .btn-success {
+        width: 90%;
+        margin-left: 13px;
+        margin-right: 10px;
+    }
+    
+    /*********ABOUT**********
+    *************************/
+    
+    .section__about{
+        height: 70vh;
+        background-image: url(../img/rosa2.jpg);
+        background-attachment: fixed;
+    }
+    
+    #about_title {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        font-family: 'Solitreo', cursive;
+        font-weight: 600;
+        animation: cambio-color 5s infinite alternate;
+        text-shadow: 3px 3px 3px 6px rgb(19, 18, 18);
+        position: relative;
+        top: 10px;
+    }
+    
+    @keyframes cambio-color {    /***Animacion del titulo****/
+        0% { color:rgb(210, 100, 214); }
+        25% { color: #e0b0e0; }
+        50% { color: burlywood; }
+        75% { color:lightgray; }
+        100% { color:lightpink}
+    }
+    
+    .section__about p {
+        padding: 10px 10px 3px 15px;
+        margin-top: 40px;
+        font-weight: 700;
+        background-color: bisque;
+        border-radius: 5%;
+        font-family: sans-serif;
+        background-color: rgb(248, 217, 217); 
+        font-size: 20px;
+    }
+    
+    /*********FIND US**********
+    *************************/
+    .section__findus > .card{
+        width: 15rem !important;
+        height: 33vh;
+        margin: 20px 10px 10px 80px;
+    }
+
+    .section__findus .section__title{
+        padding-top: 20px;
+        padding-bottom: 70px;
+        font-size: 50px;
+    }
+
+
+    .section__findus{
+        height: 70vh;
+        background-color: rgb(235, 212, 178);
+    }
+    
+    
+    .section__findus .card-body{
+        height: 6vh;
+        padding: 1px 1px 1px 1px;
+    }
+    
+    .section__findus i{       /******ICONOS******/
+        height: 19vh;
+        width: 100%;
+    }
+    
+    .section__findus .card-title{
+        font-size: 23px !important;
+        font-family: sans-serif !important;
+        font-weight: 700;
+        color: rgb(97, 58, 58);
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    a{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 5px;
+    }
+    
+    .fa-instagram::before {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 100px;
+        margin-top: 17px;
+        color: rgb(80, 46, 57);
+    }
+    
+    
+    .fa-facebook::before {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 100px;
+        margin-top: 15px;
+        color:  rgb(80, 46, 57);
+    }
+    
+    .fa-whatsapp::before {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 100px;
+        margin-top: 16px;
+        color:  rgb(80, 46, 57);
+    }
+    
+    .fa-at::before{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 100px;
+        margin-top: 15px;
+        color:  rgb(80, 46, 57);
+        font-weight: 100;
+    }
+    
+    /*********FOOTER**********
+    *************************/
+    
+    .section__footer{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(17, 17, 17);
+        color:white;
+    } 
+
+}

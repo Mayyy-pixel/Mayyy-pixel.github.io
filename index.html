@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EspressArt</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="./views/css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Charm&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Charm&family=Playfair+Display&family=Solitreo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">EspressArt</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="#">Our work</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Contact us</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+    </section>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./views/img/img2.jpg" class="d-block w-100" alt="img2">
+                    <div class="texto-img">
+                        <h1 class="font-text">Welcome to espressArt</h1>
+                            <p>Enjoy the real taste of coffee!</p>
+                        <button type="button" class="btn btn-outline-light">More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./views/img/img1.jpg" class="d-block w-100" alt="img1">
+                    <div class="texto-img">
+                        <h1 class="font-text">We're here to deligh you!!</h1>
+                        <p id="p-2">We offer you the best service of coffee and</p>
+                        <p id="p-2">pastry!! for more than 10 years being the best..</p>
+                    </div>
+                </div>
+        </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <main>
+        <section class="section__card">
+            <h1 class="section__title">Our Hot Products</h1>
+                <div class="card" style="width: 10rem;">
+                    <img src="./views/img/latte1.jpg" class="card-img-top" alt="latte1">
+                    <div class="card-body">
+                        <h5 class="card-title">Latte</h5>
+                            <p class="card-text">The best latte you could ever taste.</p>
+                        <button type="button" class="btn btn-success">$3.95</button>
+                    </div>
+                </div>
+        <div class="card" style="width: 10rem;">
+            <img src="./views/img/americano.jpg" class="card-img-top" alt="americano">
+            <div class="card-body">
+                <h5 class="card-title">American</h5>
+                    <p class="card-text">A unique and delicious coffee.</p>
+                <button type="button" class="btn btn-success">$2.90</button>
+            </div>
+        </div>
+        <div class="card" style="width: 10rem;">
+            <img src="./views/img/capuchino.jpg" class="card-img-top" alt="capuchino">
+            <div class="card-body">
+                <h5 class="card-title">Cappuccino</h5>
+                    <p class="card-text">Made with love to deligh you.</p>
+                <button type="button" class="btn btn-success">$4.95</button>
+            </div>
+        </div>
+        <div class="card" style="width: 10rem;">
+            <img src="./views/img/expreso.jpg" class="card-img-top" alt="expreso">
+            <div class="card-body">
+                <h5 class="card-title">Express</h5>
+                    <p class="card-text">One of the best to start the day!!</p>
+                <button type="button" class="btn btn-success">$3.15</button>
+            </div>
+        </div>
+    </section>
+    <section class="section__pastry">
+        <h1 class="section__title"> Our Pastry</h1>
+        <div class="card" style="width: 10rem;">
+            <img src="./views/img/donuts.jpg" class="card-img-top" alt="donuts">
+                <div class="card-body2">
+                    <p class="card-text2">Our <strong>Donuts</strong> are one of the specialities of the house.</p>
+                    <button type="button" class="btn btn-success">Let's check it out!</button>
+                </div>
+        </div>
+    <div class="card" style="width: 10rem;">
+        <img src="./views/img/tartas.jpg" class="card-img-top" alt="tartas">
+            <div class="card-body2">
+                <p class="card-text2">Enjoy the flavor of our <strong>Cakes</strong> and you won't regret it</p>
+                <button type="button" class="btn btn-success">Let's check it out!</button>
+            </div>
+    </div>
+    <div class="card" style="width: 10rem;">
+        <img src="./views/img/muffins.jpg" class="card-img-top" alt="muffins">
+            <div class="card-body2">
+                <p class="card-text2">Our <strong>Muffins</strong> are one of the specialities of the house.</p>
+                <button type="button" class="btn btn-success">Let's check it out!</button>
+            </div>
+    </div>
+    <div class="card" style="width: 10rem;">
+        <img src="./views/img/croisant.jpg" class="card-img-top" alt="croisant">
+            <div class="card-body2">
+                <p class="card-text2">You won't believe the amazing flavor of our <strong>Croissants</strong></p>
+                <button type="button" class="btn btn-success">Let's check it out!</button>
+            </div>
+    </div>
+    </section>
+    </main>
+    <section class="section__about"> 
+        <h1 id="about_title">About Us</h1>
+            <p>Welcome to our cozy café where every sip and bite is a delightful journey through flavors and aromas. Indulge in our carefully crafted coffee blends, each cup brewed to perfection by passionate baristas. From rich espressos to velvety lattes, our coffee menu offers a spectrum of sensations.</p>
+            <p>Join us for a taste of comfort, a sip of inspiration, and a slice of happiness at EspressArt. Welcome home to the perfect blend of coffee and indulgence.</p>
+    </section>
+
+    <section class="section__findus">
+        <h1 class="section__title"> Find Us</h1>
+        <div class="card" style="width: 10rem;">
+            <i class="fa-brands fa-instagram"></i>
+            <div class="card-body">
+                <h5 class="card-title">Instagram</h5>
+                    <a href="link">Here</a>
+            </div>
+        </div>
+        <div class="card" style="width: 10rem;">
+            <i class="fa-brands fa-facebook"></i>
+            <div class="card-body">
+                <h5 class="card-title">Facebook</h5>
+                    <a href="link">Here</a>
+            </div>
+        </div>
+        <div class="card" style="width: 10rem;">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div class="card-body">
+                <h5 class="card-title">Whatsapp</h5>
+                    <a href="link">Here</a>
+            </div>
+        </div>
+        <div class="card" style="width: 10rem;">
+            <i class="fa-solid fa-at"></i>
+            <div class="card-body">
+                <h5 class="card-title">G-mail</h5>
+                    <a href="link">Here</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__footer"><span>©Derechos reservados Mayra Gonzalez</span></section>
+    <script src="https://kit.fontawesome.com/9861237e16.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
